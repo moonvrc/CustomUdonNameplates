@@ -1,0 +1,8 @@
+1) Drop the prefab "Prefabs/CustomNameplateManager" into your scene.
+2) To define custom nametag additions, edit CustomNameplateManager.cs and follow the instructions at line 16.
+3) Make sure the name exactly fits the displayname that was defined in the API. Log in on VRChat.com and open
+https://vrchat.com/api/1/users/USER_ID_HERE?apiKey=JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26 to find the exact displayname.
+where USERIDHERE is the UserID you can get on the website.
+After that, copy the displayname from the displayName property
+4) Profit.
+5) Feel free to change the Font Size and customize the NameplateEntity object. (Make sure to edit the prefab in /Prefabs/InternalPrefabs)
